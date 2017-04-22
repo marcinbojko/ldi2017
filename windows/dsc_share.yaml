@@ -1,0 +1,8 @@
+share_library:
+  dsc_ensure: present
+  dsc_sharename: library
+  dsc_sharepath: c:\library
+  dsc_sharefullaccess:
+  - BUILTIN\Administrators
+  - Everyone
+  dsc_sharedescription: Library share for something

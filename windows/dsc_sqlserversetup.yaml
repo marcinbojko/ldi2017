@@ -1,0 +1,27 @@
+instance1:
+  dsc_instancename: MSSQLSERVER
+  dsc_sourcepath: "\\\\somerepo\\public"
+  dsc_sourcecredential:
+    user: anonymous
+    password: anonymous
+  dsc_setupcredential:
+    user: DOMAIN\sql-test
+    password: somepassword
+  dsc_features: SQLENGINE
+  dsc_forcereboot: true
+  dsc_agtsvcaccount:
+    user: DOMAIN\sql-test
+    password: somepassword
+  dsc_sqlsvcaccount:
+    user: DOMAIN\sql-test
+    password: somepassword
+  dsc_sqlcollation: SQL_Latin1_General_CP1_CI_AS
+  dsc_sqlsysadminaccounts:
+  - DOMAIN\domain admins
+  dsc_securitymode: SQL
+  dsc_sapwd:
+    user: sa
+    password: P@$$w0rd
+  dsc_sqluserdbdir: C:\MSSQL\Data
+  dsc_sqluserdblogdir: C:\MSSQL\Logs
+  dsc_browsersvcstartuptype: Disabled

@@ -1,0 +1,6 @@
+Telnet-Client:
+  dsc_name: Telnet-Client
+  dsc_ensure: present
+TFTP-Client:
+  dsc_name: TFTP-Client
+  dsc_ensure: present

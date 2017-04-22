@@ -1,0 +1,14 @@
+acl_library:
+  inherit_parent_permissions: false
+  purge: true
+  permissions:
+  - identity: DOMAIN\Domain Admins
+    rights:
+    - full
+  - identity: NT AUTHORITY\System
+    rights:
+    - full
+  - identity: Administrators
+    rights:
+    - full
+  target: c:\library

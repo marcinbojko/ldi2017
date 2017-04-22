@@ -1,0 +1,20 @@
+dir-simpledir:
+  dsc_destinationpath: c:\somedir
+  dsc_ensure: present
+  dsc_type: directory
+
+dir-compname:
+  dsc_destinationpath: c:\<%= @host.shortname %>
+  dsc_ensure: present
+  dsc_type: directory
+
+dir-compname-psver:
+  dsc_destinationpath: c:\<%= @host.shortname %>\<%= @host.facts['dsc_powershell_version'] %>
+  dsc_ensure: present
+  dsc_type: directory
+
+file-simpledir-file:
+  dsc_destinationpath: c:\somedir\somefile.txt
+  dsc_ensure: present
+  dsc_type: file
+  dsc_contents: "[myfile] \nsometext=[blahblah]"

@@ -1,0 +1,5 @@
+instance1:
+  dsc_instancename: MSSQLSERVER
+  dsc_protocolname: tcp
+  dsc_isenabled: true
+  dsc_restartservice: true

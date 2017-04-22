@@ -1,0 +1,5 @@
+instance1:
+  dsc_features: SQLENGINE
+  dsc_ensure: present
+  dsc_instancename: MSSQLSERVER
+  dsc_sourcepath: "\\\\somepath\\public"

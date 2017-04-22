@@ -1,0 +1,6 @@
+Administrator:
+  dsc_username: Administrator
+  dsc_disabled: false
+  dsc_password:
+    user: NT AUTHORITY\SYSTEM
+    password: somepassword!@#123

@@ -1,0 +1,18 @@
+allow_9000-9002-9005:
+  dsc_name: 9000-9002-9005
+  dsc_displayname: Firewall Rule for LDI
+  dsc_ensure: Present
+  dsc_enabled: 'True'
+  dsc_profile:
+  - Domain
+  - Private
+  dsc_direction: Inbound
+  dsc_localport:
+  - '9000-9002'
+  - '9005'
+  dsc_protocol: TCP
+  dsc_description: Firewall Rule for LDI
+  dsc_localaddress: Any
+  dsc_remoteaddress:
+  - 192.168.1.0-192.168.1.128
+  - 192.168.1.134

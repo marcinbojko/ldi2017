@@ -1,0 +1,5 @@
+instance1:
+  dsc_name: <%= @host.shortname %>\MSSQLSERVER
+  dsc_servername: sql
+  dsc_ensure: present
+  dsc_protocol: NP

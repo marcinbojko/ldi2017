@@ -1,0 +1,271 @@
+Windows 2012R2 Features list
+#
+Display Name                                                               Name
+------------                                                               ----
+[ ] Active Directory Certificate Services                                  AD-Certificate
+    [ ] Certification Authority                                            ADCS-Cert-Authority
+    [ ] Certificate Enrollment Policy Web Service                          ADCS-Enroll-Web-Pol
+    [ ] Certificate Enrollment Web Service                                 ADCS-Enroll-Web-Svc
+    [ ] Certification Authority Web Enrollment                             ADCS-Web-Enrollment
+    [ ] Network Device Enrollment Service                                  ADCS-Device-Enrollment
+    [ ] Online Responder                                                   ADCS-Online-Cert
+[ ] Active Directory Domain Services                                       AD-Domain-Services
+[ ] Active Directory Federation Services                                   ADFS-Federation
+[ ] Active Directory Lightweight Directory Services                        ADLDS
+[ ] Active Directory Rights Management Services                            ADRMS
+    [ ] Active Directory Rights Management Server                          ADRMS-Server
+    [ ] Identity Federation Support                                        ADRMS-Identity
+[ ] Application Server                                                     Application-Server
+    [ ] .NET Framework 4.5                                                 AS-NET-Framework
+    [ ] COM+ Network Access                                                AS-Ent-Services
+    [ ] Distributed Transactions                                           AS-Dist-Transaction
+        [ ] WS-Atomic Transactions                                         AS-WS-Atomic
+        [ ] Incoming Network Transactions                                  AS-Incoming-Trans
+        [ ] Outgoing Network Transactions                                  AS-Outgoing-Trans
+    [ ] TCP Port Sharing                                                   AS-TCP-Port-Sharing
+    [ ] Web Server (IIS) Support                                           AS-Web-Support
+    [ ] Windows Process Activation Service Support                         AS-WAS-Support
+        [ ] HTTP Activation                                                AS-HTTP-Activation
+        [ ] Message Queuing Activation                                     AS-MSMQ-Activation
+        [ ] Named Pipes Activation                                         AS-Named-Pipes
+        [ ] TCP Activation                                                 AS-TCP-Activation
+[ ] DHCP Server                                                            DHCP
+[ ] DNS Server                                                             DNS
+[ ] Fax Server                                                             Fax
+[X] File and Storage Services                                              FileAndStorage-Services
+    [X] File and iSCSI Services                                            File-Services
+        [X] File Server                                                    FS-FileServer
+        [ ] BranchCache for Network Files                                  FS-BranchCache
+        [ ] Data Deduplication                                             FS-Data-Deduplication
+        [X] DFS Namespaces                                                 FS-DFS-Namespace
+        [X] DFS Replication                                                FS-DFS-Replication
+        [ ] File Server Resource Manager                                   FS-Resource-Manager
+        [ ] File Server VSS Agent Service                                  FS-VSS-Agent
+        [ ] iSCSI Target Server                                            FS-iSCSITarget-Server
+        [ ] iSCSI Target Storage Provider (VDS and VSS hardware providers) iSCSITarget-VSS-VDS
+        [ ] Server for NFS                                                 FS-NFS-Service
+        [ ] Work Folders                                                   FS-SyncShareService
+    [X] Storage Services                                                   Storage-Services
+[ ] Hyper-V                                                                Hyper-V
+[ ] Network Policy and Access Services                                     NPAS
+    [ ] Network Policy Server                                              NPAS-Policy-Server
+    [ ] Health Registration Authority                                      NPAS-Health
+    [ ] Host Credential Authorization Protocol                             NPAS-Host-Cred
+[ ] Print and Document Services                                            Print-Services
+    [ ] Print Server                                                       Print-Server
+    [ ] Distributed Scan Server                                            Print-Scan-Server
+    [ ] Internet Printing                                                  Print-Internet
+    [ ] LPD Service                                                        Print-LPD-Service
+[ ] Remote Access                                                          RemoteAccess
+    [ ] DirectAccess and VPN (RAS)                                         DirectAccess-VPN
+    [ ] Routing                                                            Routing
+    [ ] Web Application Proxy                                              Web-Application-Proxy
+[ ] Remote Desktop Services                                                Remote-Desktop-Services
+    [ ] Remote Desktop Connection Broker                                   RDS-Connection-Broker
+    [ ] Remote Desktop Gateway                                             RDS-Gateway
+    [ ] Remote Desktop Licensing                                           RDS-Licensing
+    [ ] Remote Desktop Session Host                                        RDS-RD-Server
+    [ ] Remote Desktop Virtualization Host                                 RDS-Virtualization
+    [ ] Remote Desktop Web Access                                          RDS-Web-Access
+[ ] Volume Activation Services                                             VolumeActivation
+[X] Web Server (IIS)                                                       Web-Server
+    [X] Web Server                                                         Web-WebServer
+        [X] Common HTTP Features                                           Web-Common-Http
+            [X] Default Document                                           Web-Default-Doc
+            [X] Directory Browsing                                         Web-Dir-Browsing
+            [X] HTTP Errors                                                Web-Http-Errors
+            [X] Static Content                                             Web-Static-Content
+            [X] HTTP Redirection                                           Web-Http-Redirect
+            [X] WebDAV Publishing                                          Web-DAV-Publishing
+        [X] Health and Diagnostics                                         Web-Health
+            [X] HTTP Logging                                               Web-Http-Logging
+            [X] Custom Logging                                             Web-Custom-Logging
+            [X] Logging Tools                                              Web-Log-Libraries
+            [X] ODBC Logging                                               Web-ODBC-Logging
+            [X] Request Monitor                                            Web-Request-Monitor
+            [X] Tracing                                                    Web-Http-Tracing
+        [X] Performance                                                    Web-Performance
+            [X] Static Content Compression                                 Web-Stat-Compression
+            [X] Dynamic Content Compression                                Web-Dyn-Compression
+        [X] Security                                                       Web-Security
+            [X] Request Filtering                                          Web-Filtering
+            [X] Basic Authentication                                       Web-Basic-Auth
+            [X] Centralized SSL Certificate Support                        Web-CertProvider
+            [X] Client Certificate Mapping Authentication                  Web-Client-Auth
+            [X] Digest Authentication                                      Web-Digest-Auth
+            [X] IIS Client Certificate Mapping Authentication              Web-Cert-Auth
+            [X] IP and Domain Restrictions                                 Web-IP-Security
+            [X] URL Authorization                                          Web-Url-Auth
+            [X] Windows Authentication                                     Web-Windows-Auth
+        [X] Application Development                                        Web-App-Dev
+            [X] .NET Extensibility 3.5                                     Web-Net-Ext
+            [X] .NET Extensibility 4.5                                     Web-Net-Ext45
+            [X] Application Initialization                                 Web-AppInit
+            [X] ASP                                                        Web-ASP
+            [X] ASP.NET 3.5                                                Web-Asp-Net
+            [X] ASP.NET 4.5                                                Web-Asp-Net45
+            [X] CGI                                                        Web-CGI
+            [X] ISAPI Extensions                                           Web-ISAPI-Ext
+            [X] ISAPI Filters                                              Web-ISAPI-Filter
+            [X] Server Side Includes                                       Web-Includes
+            [X] WebSocket Protocol                                         Web-WebSockets
+    [X] FTP Server                                                         Web-Ftp-Server
+        [X] FTP Service                                                    Web-Ftp-Service
+        [X] FTP Extensibility                                              Web-Ftp-Ext
+    [X] Management Tools                                                   Web-Mgmt-Tools
+        [X] IIS Management Console                                         Web-Mgmt-Console
+        [X] IIS 6 Management Compatibility                                 Web-Mgmt-Compat
+            [X] IIS 6 Metabase Compatibility                               Web-Metabase
+            [X] IIS 6 Management Console                                   Web-Lgcy-Mgmt-Console
+            [X] IIS 6 Scripting Tools                                      Web-Lgcy-Scripting
+            [X] IIS 6 WMI Compatibility                                    Web-WMI
+        [X] IIS Management Scripts and Tools                               Web-Scripting-Tools
+        [X] Management Service                                             Web-Mgmt-Service
+[ ] Windows Deployment Services                                            WDS
+    [ ] Deployment Server                                                  WDS-Deployment
+    [ ] Transport Server                                                   WDS-Transport
+[ ] Windows Server Essentials Experience                                   ServerEssentialsRole
+[ ] Windows Server Update Services                                         UpdateServices
+    [ ] WID Database                                                       UpdateServices-WidDB
+    [ ] WSUS Services                                                      UpdateServices-Services
+    [ ] Database                                                           UpdateServices-DB
+[X] .NET Framework 3.5 Features                                            NET-Framework-Features
+    [X] .NET Framework 3.5 (includes .NET 2.0 and 3.0)                     NET-Framework-Core
+    [ ] HTTP Activation                                                    NET-HTTP-Activation
+    [ ] Non-HTTP Activation                                                NET-Non-HTTP-Activ
+[X] .NET Framework 4.5 Features                                            NET-Framework-45-Features
+    [X] .NET Framework 4.5                                                 NET-Framework-45-Core
+    [X] ASP.NET 4.5                                                        NET-Framework-45-ASPNET
+    [X] WCF Services                                                       NET-WCF-Services45
+        [ ] HTTP Activation                                                NET-WCF-HTTP-Activation45
+        [ ] Message Queuing (MSMQ) Activation                              NET-WCF-MSMQ-Activation45
+        [ ] Named Pipe Activation                                          NET-WCF-Pipe-Activation45
+        [ ] TCP Activation                                                 NET-WCF-TCP-Activation45
+        [X] TCP Port Sharing                                               NET-WCF-TCP-PortSharing45
+[ ] Background Intelligent Transfer Service (BITS)                         BITS
+    [ ] IIS Server Extension                                               BITS-IIS-Ext
+    [ ] Compact Server                                                     BITS-Compact-Server
+[ ] BitLocker Drive Encryption                                             BitLocker
+[ ] BitLocker Network Unlock                                               BitLocker-NetworkUnlock
+[ ] BranchCache                                                            BranchCache
+[X] Client for NFS                                                         NFS-Client
+[ ] Data Center Bridging                                                   Data-Center-Bridging
+[ ] Direct Play                                                            Direct-Play
+[X] Enhanced Storage                                                       EnhancedStorage
+[ ] Failover Clustering                                                    Failover-Clustering
+[ ] Group Policy Management                                                GPMC
+[ ] IIS Hostable Web Core                                                  Web-WHC
+[X] Ink and Handwriting Services                                           InkAndHandwritingServices
+[ ] Internet Printing Client                                               Internet-Print-Client
+[ ] IP Address Management (IPAM) Server                                    IPAM
+[ ] iSNS Server service                                                    ISNS
+[ ] LPR Port Monitor                                                       LPR-Port-Monitor
+[ ] Management OData IIS Extension                                         ManagementOdata
+[X] Media Foundation                                                       Server-Media-Foundation
+[ ] Message Queuing                                                        MSMQ
+    [ ] Message Queuing Services                                           MSMQ-Services
+        [ ] Message Queuing Server                                         MSMQ-Server
+        [ ] Directory Service Integration                                  MSMQ-Directory
+        [ ] HTTP Support                                                   MSMQ-HTTP-Support
+        [ ] Message Queuing Triggers                                       MSMQ-Triggers
+        [ ] Multicasting Support                                           MSMQ-Multicasting
+        [ ] Routing Service                                                MSMQ-Routing
+    [ ] Message Queuing DCOM Proxy                                         MSMQ-DCOM
+[X] Multipath I/O                                                          Multipath-IO
+[ ] Network Load Balancing                                                 NLB
+[ ] Peer Name Resolution Protocol                                          PNRP
+[ ] Quality Windows Audio Video Experience                                 qWave
+[ ] RAS Connection Manager Administration Kit (CMAK)                       CMAK
+[ ] Remote Assistance                                                      Remote-Assistance
+[ ] Remote Differential Compression                                        RDC
+[X] Remote Server Administration Tools                                     RSAT
+    [X] Feature Administration Tools                                       RSAT-Feature-Tools
+        [ ] SMTP Server Tools                                              RSAT-SMTP
+        [ ] BitLocker Drive Encryption Administration Utilities            RSAT-Feature-Tools-BitLocker
+            [ ] BitLocker Drive Encryption Tools                           RSAT-Feature-Tools-BitLocker-RemoteAdminTool
+            [ ] BitLocker Recovery Password Viewer                         RSAT-Feature-Tools-BitLocker-BdeAducExt
+        [ ] BITS Server Extensions Tools                                   RSAT-Bits-Server
+        [ ] Failover Clustering Tools                                      RSAT-Clustering
+            [ ] Failover Cluster Management Tools                          RSAT-Clustering-Mgmt
+            [ ] Failover Cluster Module for Windows PowerShell             RSAT-Clustering-PowerShell
+            [ ] Failover Cluster Automation Server                         RSAT-Clustering-AutomationServer
+            [ ] Failover Cluster Command Interface                         RSAT-Clustering-CmdInterface
+        [ ] IP Address Management (IPAM) Client                            IPAM-Client-Feature
+        [ ] Network Load Balancing Tools                                   RSAT-NLB
+        [X] SNMP Tools                                                     RSAT-SNMP
+        [ ] WINS Server Tools                                              RSAT-WINS
+    [X] Role Administration Tools                                          RSAT-Role-Tools
+        [X] AD DS and AD LDS Tools                                         RSAT-AD-Tools
+            [X] Active Directory module for Windows PowerShell             RSAT-AD-PowerShell
+            [X] AD DS Tools                                                RSAT-ADDS
+                [X] Active Directory Administrative Center                 RSAT-AD-AdminCenter
+                [X] AD DS Snap-Ins and Command-Line Tools                  RSAT-ADDS-Tools
+                [ ] Server for NIS Tools [DEPRECATED]                      RSAT-NIS
+            [X] AD LDS Snap-Ins and Command-Line Tools                     RSAT-ADLDS
+        [X] Hyper-V Management Tools                                       RSAT-Hyper-V-Tools
+            [X] Hyper-V GUI Management Tools                               Hyper-V-Tools
+            [X] Hyper-V Module for Windows PowerShell                      Hyper-V-PowerShell
+        [X] Remote Desktop Services Tools                                  RSAT-RDS-Tools
+            [ ] Remote Desktop Gateway Tools                               RSAT-RDS-Gateway
+            [ ] Remote Desktop Licensing Diagnoser Tools                   RSAT-RDS-Licensing-Diagnosis-UI
+            [ ] Remote Desktop Licensing Tools                             RDS-Licensing-UI
+        [X] Windows Server Update Services Tools                           UpdateServices-RSAT
+            [X] API and PowerShell cmdlets                                 UpdateServices-API
+            [X] User Interface Management Console                          UpdateServices-UI
+        [ ] Active Directory Certificate Services Tools                    RSAT-ADCS
+            [ ] Certification Authority Management Tools                   RSAT-ADCS-Mgmt
+            [ ] Online Responder Tools                                     RSAT-Online-Responder
+        [ ] Active Directory Rights Management Services Tools              RSAT-ADRMS
+        [ ] DHCP Server Tools                                              RSAT-DHCP
+        [ ] DNS Server Tools                                               RSAT-DNS-Server
+        [ ] Fax Server Tools                                               RSAT-Fax
+        [X] File Services Tools                                            RSAT-File-Services
+            [X] DFS Management Tools                                       RSAT-DFS-Mgmt-Con
+            [ ] File Server Resource Manager Tools                         RSAT-FSRM-Mgmt
+            [ ] Services for Network File System Management Tools          RSAT-NFS-Admin
+            [ ] Share and Storage Management Tool                          RSAT-CoreFile-Mgmt
+        [ ] Network Policy and Access Services Tools                       RSAT-NPAS
+        [ ] Print and Document Services Tools                              RSAT-Print-Services
+        [ ] Remote Access Management Tools                                 RSAT-RemoteAccess
+            [ ] Remote Access GUI and Command-Line Tools                   RSAT-RemoteAccess-Mgmt
+            [ ] Remote Access module for Windows PowerShell                RSAT-RemoteAccess-PowerShell
+        [ ] Volume Activation Tools                                        RSAT-VA-Tools
+        [ ] Windows Deployment Services Tools                              WDS-AdminPack
+[ ] RPC over HTTP Proxy                                                    RPC-over-HTTP-Proxy
+[X] Simple TCP/IP Services                                                 Simple-TCPIP
+[X] SMB 1.0/CIFS File Sharing Support                                      FS-SMB1
+[ ] SMB Bandwidth Limit                                                    FS-SMBBW
+[ ] SMTP Server                                                            SMTP-Server
+[X] SNMP Service                                                           SNMP-Service
+    [X] SNMP WMI Provider                                                  SNMP-WMI-Provider
+[X] Telnet Client                                                          Telnet-Client
+[ ] Telnet Server                                                          Telnet-Server
+[X] TFTP Client                                                            TFTP-Client
+[X] User Interfaces and Infrastructure                                     User-Interfaces-Infra
+    [X] Graphical Management Tools and Infrastructure                      Server-Gui-Mgmt-Infra
+    [X] Desktop Experience                                                 Desktop-Experience
+    [X] Server Graphical Shell                                             Server-Gui-Shell
+[ ] Windows Biometric Framework                                            Biometric-Framework
+[ ] Windows Feedback Forwarder                                             WFF
+[ ] Windows Identity Foundation 3.5                                        Windows-Identity-Foundation
+[ ] Windows Internal Database                                              Windows-Internal-Database
+[X] Windows PowerShell                                                     PowerShellRoot
+    [X] Windows PowerShell 4.0                                             PowerShell
+    [X] Windows PowerShell 2.0 Engine                                      PowerShell-V2
+    [ ] Windows PowerShell Desired State Configuration Service             DSC-Service
+    [X] Windows PowerShell ISE                                             PowerShell-ISE
+    [ ] Windows PowerShell Web Access                                      WindowsPowerShellWebAccess
+[X] Windows Process Activation Service                                     WAS
+    [X] Process Model                                                      WAS-Process-Model
+    [X] .NET Environment 3.5                                               WAS-NET-Environment
+    [X] Configuration APIs                                                 WAS-Config-APIs
+[ ] Windows Search Service                                                 Search-Service
+[ ] Windows Server Backup                                                  Windows-Server-Backup
+[ ] Windows Server Migration Tools                                         Migration
+[ ] Windows Standards-Based Storage Management                             WindowsStorageManagementService
+[X] Windows TIFF IFilter                                                   Windows-TIFF-IFilter
+[ ] WinRM IIS Extension                                                    WinRM-IIS-Ext
+[ ] WINS Server                                                            WINS
+[ ] Wireless LAN Service                                                   Wireless-Networking
+[X] WoW64 Support                                                          WoW64-Support
+[X] XPS Viewer                                                             XPS-Viewer

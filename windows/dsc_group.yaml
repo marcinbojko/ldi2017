@@ -1,0 +1,10 @@
+Administrators:
+  dsc_credential:
+    password: somepassword
+    user: DOMAIN\worker
+  dsc_groupname: Administrators
+  dsc_memberstoinclude:
+  - DOMAIN\Domain Admins
+  - DOMAIN\\sql-test
+  - DOMAIN\\sql
+  - DOMAIN\Domain Users
